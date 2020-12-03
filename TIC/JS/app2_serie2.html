@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> Test </title> 
+	</head>
+	
+	<body>
+	<script>
+		for (var i = 1; i<1001; i++){
+		var s = 0;
+			for (var j = 1; j<i; j++){
+				if((i%j)==0){
+					s = s + i;
+				}
+			}
+			if (s==i){
+				document.write(i+ "|");
+			}
+		} 
+	</script>
+	</body>
+</html>
