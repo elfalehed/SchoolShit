@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> test </title>
+	<script language="javascript">
+	function ch(){
+		if(document.f.r[0].checked){
+			alert("Vous avez selectionner numero 1");
+		}
+		if(document.f.r[1].checked){
+			alert("vous avez selctionner numero 2");
+		} 
+		else {
+			alert("vous avez selectionner numero 3");
+		} 
+	}
+
+	</script>
+	</head>
+	<body>
+		<form name="f">
+	<p> Entrer votre choix: </p> 
+	<input type="radio" name="r" value="choix numero 1 "/> <label for="r">Choix numero 1</label> <br>
+	<input type="radio" name="r" value="choix numero 2 "/> <label for="r">Choix numero 2</label> <br>
+	<input type="radio" name="r" value="choix numero 3 "/> <label for="r">Choix numero 3</label> <br> 
+
+	<input type="button" onClick="ch()" />
+		</form>
+	</body>
+</html>
